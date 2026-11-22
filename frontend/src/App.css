@@ -1,0 +1,47 @@
+body {
+  background: radial-gradient(circle at top, #1b2735 0%, #090a0f 100%);
+  color: #ffffff;
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+.universe-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.gratitude-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: 1rem;
+}
+textarea { min-height: 80px; resize: vertical; }
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover { background: #4f46e5; }
+.message-feed { display: flex; flex-direction: column; gap: 15px; text-align: left; }
+.message-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+.message-text { font-size: 1.1rem; margin: 0 0 8px 0; }
+.message-author { font-size: 0.85rem; color: #94a3b8; }
